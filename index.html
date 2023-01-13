@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 23</title>
+</head>
+
+<body>
+   <header>
+      <h1>Home work Lesson 23</h1>
+   </header>
+   <main>
+      <div class="page">
+         <div class="page__container">
+            <div class="block">
+               <div>
+                  <h2 class="title">Операторы JAVASCRIPT. "2"+2=22.</h2>
+               </div>
+               <div class="block__body">
+                  <div class="block__img">
+                     <img src="img/Screenshot_1.png" alt="Скріншот">
+                  </div>
+                  <div class="block__menu">
+                     <ul class="menu">
+                        <li>Варіант №1) неправильно, викликало 35-22, щоб викликало 13, потрібно написати без +</li>
+                        <li>Варіант №2) правильно, викликало 770</li>
+                        <li>Варіант №3) неправильно, викликало помилку, через інкремент</li>
+                        <li>Варіант №4) неправильно, викликало 0</li>
+                        <li>Варіант №5) викличе 11 так як в першому рівнянні (!false && 11) викличе друге true, в
+                           другому рівнянні (18 && !'') викличе друге true, а оператор || викличе перше true</li>
+                        <li>Варіант №5) викличе 0, так як він не null чи undefined</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="block">
+               <div>
+                  <h2 class="title">IF ELSE в JAVASCRIPT. Умовний оператор "?".</h2>
+               </div>
+               <div class="block__body">
+                  <div class="block__img">
+                     <img src="img/Screenshot_2.png" alt="Скріншот">
+                  </div>
+                  <div class="block__menu">
+                     <ul class="menu">
+                        <li>Варіант №1) викликало Брехня!</li>
+                        <li>Варіант №2) викликало Істина!</li>
+                        <li>Варіант №3) викликало Істина!</li>
+                        <li>Варіант №4) викликало Істина!</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="block">
+               <div>
+                  <h2 class="title">Цикли FOR і WHILE в JavaScript. Директиви break и continue.</h2>
+               </div>
+               <div class="block__body">
+                  <div class="block__img">
+                     <img src="img/Screenshot_3.png" alt="Скріншот">
+                  </div>
+                  <div class="block__menu">
+                     <ul class="menu">
+                        <li>Задача №1 <br>
+                           for (let num = 1; num < 6; num++) { <br>
+                              console.log(num); <br>}</li>
+                        <li>Задача №2 <br>
+                           let num = 8; <br>
+                           while (num) { <br>
+                           console.log(num); <br>
+                           num--; <br>
+                           } <br>
+                           Остальний результат 1, 0 не виводиться так як 0 буде false</li>
+                        <li>Задача №3 <br>
+                           let num = 0; <br>
+                           while (num < 3) { <br>
+                              console.log(`Число: ${num}`); <br>
+                              num++; <br>
+                              } <br> </li>
+                        <li>Задача №4 <br>
+                           //Цикл №1 <br>
+                           oneCicle: for (let num = 0; num < 2; num++) { <br>
+                              //Цикл №2 <br>
+                              for (let size = 0; size < 3; size++) { <br>
+                                 if (size == 1) { <br>
+                                 break oneCicle; <br>
+                                 } <br>
+                                 console.log(size); <br>
+                                 } <br>
+                                 }</li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="block">
+               <div>
+                  <h2 class="title">Числа в JAVASCRIPT. Тип даних number. Робота з числами.</h2>
+               </div>
+               <div class="block__body">
+                  <div class="block__img">
+                     <img src="img/Screenshot_4.png" alt="Скріншот">
+                  </div>
+                  <div class="block__menu">
+                     <ul class="menu">
+                        <li>//Задача №1 <br>
+                           let numOne = Math.round((1.005 + Number.EPSILON) * 100) / 100;<br>
+                           console.log(numOne);</li>
+                        <li>//Задача №2<br>
+                           let value = `135.50px`;<br>
+                           let someNum = parseFloat(value);<br>
+                           console.log(someNum);<br>
+                        </li>
+                        <li>//Задача №3 <br>
+                           let value = 58 + "Фрілансер";<br>
+                           if (isNaN(value)) {<br>
+                           console.log('Результат виразу NaN');<br>
+                           }</li>
+                        <li>//Задача №4<br>
+                           console.log(Math.max(10, 58, 39, -150, 0));
+                        </li>
+                        <li>////Задача №5<br>
+                           let summ = 58.858;<br>
+                           console.log(Math.floor(summ));<br>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="block">
+               <div>
+                  <h2 class="title">Рядки в JAVASCRIPT. Тип даних string.</h2>
+               </div>
+               <div class="block__body">
+                  <div class="block__img">
+                     <img src="img/Screenshot_5.png" alt="Скріншот">
+                  </div>
+                  <div class="block__menu">
+                     <ul class="menu">
+                        <li>//Задача №1 <br>
+                           викликало Привіт! Я ${fls}, потрібно змінну text в 9 рядку писати в зворотніх лапках </li>
+                        <li>//Задача №2 <br>
+                           console.log(text[5]);</li>
+                        <li>//Задача №3 <br>
+                           console.log(text); отримали 123456, додало рядки.</li>
+                        <li>//Задача №4<br>
+                           let text = 'фрилансер';<br>
+                           console.log(text.toUpperCase());
+                        </li>
+                        <li>//Задача №5 <br>
+                           let text = 'фрилансер'; <br>
+                           console.log(text.slice(3, 6));
+                        </li>
+                        <li>//Задача №6 <br>
+                           false
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+         </div>
+
+      </div>
+   </main>
+   <footer>
+
+   </footer>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
